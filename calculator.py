@@ -36,7 +36,7 @@ def divide(a, b):
         raise ZeroDivisionError
     return b / a
 def logarithm(a, b):
-    return math.log(a, b)
+    return math.log(b, a)
 def exponent(a, b):
     return a ** b
 
