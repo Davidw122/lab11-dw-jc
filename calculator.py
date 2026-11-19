@@ -1,3 +1,9 @@
+# https://github.com/Davidw122/lab11-dw-jc
+# Partner 1: David Weisglass
+# Partner 2: Javier Castro
+
+
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -36,6 +42,8 @@ def divide(a, b):
         raise ZeroDivisionError
     return b / a
 def logarithm(a, b):
+    if a <= 0 or a == 1 or b <= 0:
+        raise ValueError("Invalid logarithm base or argument")
     return math.log(b, a)
 def exponent(a, b):
     return a ** b
@@ -51,7 +59,7 @@ def div(a, b):
         raise ZeroDivisionError
     return b / a
 def log(a, b):
-    return math.log(b, a)
+    return logarithm(a, b)
 def exp(a, b):
     return a ** b
 
