@@ -32,7 +32,6 @@ def hypotenuse(a, b):
 
 # Partner 1 work
 def add(a, b):
-    # Partner 1 version
     return a + b
 def subtract(a, b):
     return a - b
