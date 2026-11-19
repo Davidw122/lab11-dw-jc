@@ -31,8 +31,9 @@ def hypotenuse(a, b):
     return math.hypot(a, b)
 
 # Partner 1 work
-def add(a, b): 
-    return a + b
+def add(a, b):
+    # Partner 2 version
+    return sum((a, b))
 def subtract(a, b):
     return a - b
 def multiply(a, b):
